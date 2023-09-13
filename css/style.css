@@ -1,6 +1,7 @@
 /* Экран2 */
 
 /* тест передачи изменений из github в vscode */
+/* тест2 */
 
 *{
     margin:0;
@@ -30,7 +31,6 @@ h2{
 @media (max-width: 768px) {
     h2 {
         width: 500px;
-        font-size: 34px;
     }
 }
 
