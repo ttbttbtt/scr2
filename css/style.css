@@ -1,7 +1,5 @@
 /* Экран2 */
-
-/* тест передачи изменений из github в vscode */
-/* тест2 */
+/* тест3 передачи изменений из github в vscode */
 
 *{
     margin:0;
@@ -18,25 +16,22 @@ section{
    padding: 0 120px; /*слева и справа отступы*/
 }
 
-
-
 h2{
     width: 769px;
-    margin-bottom: 41px;
+    margin-bottom: 90px;
     font-size: 58px;
     font-weight: 500;
     letter-spacing: 0.58px;
     text-transform: uppercase;
 }
+
 @media (max-width: 768px) {
     h2 {
         width: 500px;
     }
 }
 
-.all{
-    margin-top: 41px;
-}
+
 
 .one_two{
     display:flex;
@@ -44,36 +39,83 @@ h2{
     gap: 20px 70px;
 }
 
-.photo{
-    width: 287px;
+.three_four{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+}
+
+
+
+.boy0 {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+
+    flex-direction: column;
+}
+
+.girl0 {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+
+    flex-direction: column;
+}
+.boy {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+
+    flex-direction: column;
+}
+
+.girl {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+
+    flex-direction: column;
+}
+
+
+
+.one_two .photo{
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+    margin-bottom: 2px;
+    margin-top: 0;
+    /*flex-shrink: 1;*/
+}
+
+.three_four .photo{
+    width: 380px;/*???*/
+    height: 380px;/*???*/
     flex-grow: 0;
     margin-bottom: 20px;
     margin-top: 0;
-
-    flex-shrink: 1;
+    /*flex-shrink: 1;*/
 }
+
+
+
 .category{
     width: 420px;
     text-transform: uppercase;
     font-size: 27px;
     font-weight: 600;
-    margin-bottom: 39px;
+    margin-bottom: 20px;
 
-    flex-grow: 0;
-    flex-shrink: 1;
+    /*flex-grow: 0;
+    flex-shrink: 1;*/
 }
 
 p{
     width: 450px;
-    margin-bottom: 20px;
+    margin-bottom: 52px;
     font-size: 27px;
 
-    flex-grow: 0;
-    flex-shrink: 1;
-}
-
-.three_four{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 20px 70px;
+    /*flex-grow: 0;
+    flex-shrink: 1;*/
 }
