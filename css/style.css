@@ -1,5 +1,6 @@
 /* Экран2 */
 /* тест3 передачи изменений из github в vscode */
+/* test5 */
 
 *{
     margin:0;
@@ -81,8 +82,8 @@ h2{
 
 
 .one_two .photo{
-    width: 200px;
-    height: 200px;
+    width: 287px;
+    height: 287px;
     flex-grow: 0;
     margin-bottom: 2px;
     margin-top: 0;
@@ -90,8 +91,8 @@ h2{
 }
 
 .three_four .photo{
-    width: 200px;/*???*/
-    height: 200px;/*???*/
+    width: 287px;/*???*/
+    height: 287px;/*???*/
     flex-grow: 0;
     margin-bottom: 20px;
     margin-top: 0;
